@@ -20,7 +20,7 @@ export default function CounterScreen() {
           setCounter(counter - 1);
         }}
       />
-      <Text>Number : {counter}</Text>
+      <Text style={styles.num}>Number : {counter}</Text>
     </View>
   );
 }
@@ -28,8 +28,10 @@ export default function CounterScreen() {
 const styles = StyleSheet.create({
   button: {
     borderRadius: 30,
-    paddingVertical: 10,
-    paddingHorizontal: 20,
-    margin: 20,
+    marginVertical:50
   },
+  num :{
+    fontSize:30,
+    textAlign:'center'
+  }
 });
