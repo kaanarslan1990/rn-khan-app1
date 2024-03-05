@@ -6,6 +6,7 @@ import CoursesScreen from './src/screens/CoursesScreen';
 import CoursesInformation from './src/screens/CoursesInformation';
 import CounterScreen from './src/screens/CounterScreen';
 import BoxScreen from './src/screens/BoxScreen';
+import ColorChangeScreen from './src/screens/ColorChangeScreen';
 
 
 
@@ -20,6 +21,7 @@ export default function App() {
         <Stack.Screen name="CourseInfo" component={CoursesInformation} />
         <Stack.Screen name="Counter" component={CounterScreen} />
         <Stack.Screen name="Box" component={BoxScreen} />
+        <Stack.Screen name="ChangeColor" component={ColorChangeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
