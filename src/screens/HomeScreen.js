@@ -29,6 +29,11 @@ export default function HomeScreen({navigation}) {
         title="Password Screen"
         onPress={() => navigation.navigate('PasswordScreen')}
       />
+      <Button
+        title="Design Screen"
+        onPress={() => navigation.navigate('DesignScreen')}
+      />
+
     </View>
   )
 }
